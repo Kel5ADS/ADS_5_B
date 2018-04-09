@@ -17,7 +17,8 @@
 
 
 1.6 Deskripsi umum Dokumen (Ikhtisar)
-
+	Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan meliputi: pendahuluan, deskripsi umum perangkat lunak, dan deskripsi kebutuhan perangkat lunak.
+	Bagian Pendahuluan berisi tujuan penulisan mengenai tujuan dan alasan kenapa dokumen ini dibuat, lingkup permasalahan yang berisi ringkasan deskripsi dari perangkat lunak yang akan dibuat, definisi, istilah dan singkatan yang digunakan dalam dokumen spesifikasi kebutuhan ini, atau penomoran yang digunakan dalam penulisan dokumen spesifikasi kebutuhan ini. Bagian deskripsi umum kebutuhan perangkat lunak berisi deskripsi umum dari sistem perangkat lunak yang akan dibuat, karakteristik pengguna perangkat lunak ini dan batasan pembuatan perangkat lunak itu sendiri dan lingkungan operasi yang diperuntukan bagi perangkat lunak yang akan dibuat.  
 
 2. Deskripsi Umum Perangkat Lunak
 2.1 Deskripsi Umum system
