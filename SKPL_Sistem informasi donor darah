@@ -52,5 +52,56 @@ Komputer dengan spesifikasi hardware minimal sebagai berikut :
 Komputer yang minimal telah terinstall software sebagai berikut :
 •	Browser Google Chrome/Mozilla Firefox
 •	PDF reader
-Koneksi internet dengan bandwidth minimal 128 Kbps
-OS minimal Windows XP ke atas atau Ubuntu 7.04 ke atas
+•	Koneksi internet dengan bandwidth minimal 128 Kbps
+•	OS minimal Windows XP ke atas atau Ubuntu 7.04 ke atas
+
+3 Deskripsi Kebutuhan
+
+3.1 Kebutuhan Antarmuka (Interface) Eksternal
+Sistem Informasi Donor Darah membutuhkan fasilitas-fasilitas antar muka eksternal sebagai berikut :
+
+3.1.1 Antarmuka pemakai
+
+User interface yang digunakan untuk pengoperasian Sistem Informasi Donor Darah antara lain :
+
+•	Tampilan awal web
+•	Tampilan sign in
+•	Tampilan pendaftaran
+•	Tampilan login sebagai admin
+•	Tampilan login sebagai user
+•	Tampilan login sebagai PMI/RS
+•	Tampilan informasi pendonor
+•	Tampilan informasi ketersediaan darah
+•	Tampilan informasi seputar kegiatan donor darah
+
+Alat-alat yang mendukung antarmuka pemakai adalah sebagai berikut:
+•	Keyboard
+•	Mouse
+•	Monitor
+
+3.1.2 Antarmuka Perangkat Keras
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan sistem informasi ini antara lain :
+•	Modem
+•	NIC FastEthernet atau Gigabit Ethernet
+
+3.1.3 Antarmuka Perangkat Lunak
+Antarmuka perangkat lunak yang digunakan oleh sistem informasi ini antara lain :
+•	
+•	
+
+3.2 Kebutuhan Fungsional
+
+3.3 Kebutuhan Non Fungsional
+•	Sistem harus dapat beroperasi 7 hari perminggu, 24 jam perhari tanpa gagal
+•	Tampilan antarmuka web mudah dipahami user
+•	Perangkat lunak dapat dipakai pada platform Windows dan Linux
+•	Sistem mampu melakukan update data dalam waktu cepat
+•	Sistem menolak input pengguna yang akan mendaftarkan diri dengan password kurang dari 8 karakter
+•	Setiap layer harus mengandung logo donor darah
+
+3.4 Kebutuhan data
+
+3.4 Batasan Perancangan
+Batasan perancangan yang digunakan dalam pengembangan Sistem Informasi Donor Darah antara lain :
+•	Tampilan web digunakan menggunakan aplikasi Balsemiq Mockup 3
+•	Bahasa yang digunakan menggunakan bahasa php
