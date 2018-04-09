@@ -1,4 +1,23 @@
-cc
+1.1 Pendahuluan
+1.1 Tujuan Pendahuluan Dokumen
+	Dokumen ini ditulis untuk tujuan menjabarkan spesifikasi dari perangkat lunak kami yaitu Sistem Informasi Donor Darah. Penjabaran spesfikasi kebutuhan lunak ini meliputi deskripsi umum perangkat lunak dan deskripsi kebutuhan perangkat lunak. Dalam membangun perangkat lunak tersebut, tentunya spesifikasi kebutuhan untuk perangkat lunak tersebut dibutuhkan, khususnya oleh para pengembang dan pembangun perangkat lunak tersbut.
+
+1.2 Lingkup Masalah
+	SSID adalah sebuah sistem informasi berbasis web yang menampilkan info donor darah disetiap daerah. Pengguna perangkat lunak ini dapat melakukan pendaftaran, sign in, melihat info donor darah yang up to date setiap hari dan melihat kebutuhan golongan darah pada setiap PMI atau RUmah Sakit yang terdaftar. Data tersebut dikelola oleh admin di setiap daerah baik itu Puskesmas, RUmah Sakit dan PMI yang menyediakan donor darah dan akan dilaporkan ke admin pusat.
+
+1.3 Definisi, IStilah dan Singkatan
+	Berikut adalah definisi, istilah serta singkatan yang akan digunakan dalam penjabaran dokumen perangkat lunat ini:
+	DFD : Data FLow Diagram. Diagram yang menggambarkan aliran data pada perangkat lunak.
+	ERD : Entity Realation Diagram. Diagram yang menggambarkan entitas suatu objek beserta relasinya.
+	Interfaces : Tampilan antarmuka antara perangkat lunak dengan pengguna (user) 
+
+1.4 Aturan Penomoran
+
+1.5 Referensi
+
+
+1.6 Deskripsi umum Dokumen (Ikhtisar)
+
 
 2. Deskripsi Umum Perangkat Lunak
 2.1 Deskripsi Umum system
