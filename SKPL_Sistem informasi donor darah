@@ -12,6 +12,7 @@
 	Interfaces : Tampilan antarmuka antara perangkat lunak dengan pengguna (user) 
 
 1.4 Aturan Penomoran
+	
 
 1.5 Referensi
 
@@ -112,6 +113,18 @@ Antarmuka perangkat lunak yang digunakan oleh sistem informasi ini antara lain :
 •	
 
 3.2 Kebutuhan Fungsional
+	Kebutuhan fungsional sistem
+	Pada subbab ini menjelaskan tentang kebutuhan-kebutuhan yang diperlukan untuk memperbaiki sistem dan mengembangkan sistem. Secara umum kebutuhan yang diperlukan terdiri dari kebutuhan fungsional dan non-fungsional.
+	Kebutuhan fungsional sitem dikembangkan dengan cara melakukan identifikasi setiap aktivitas yang dilakukan oleh semua pihak yang terkait. Adapun beberapa kebutuhan fungsional dalam pembuatan website Sistem informasi donor darah adalah sebagai berikut :
+	1.	Manajemen stok darah
+	2.	Manajemen cabang PMI/PMR yang terdaftar dalam sistem
+	3.	Manajemen permintaan stok darah
+	4.	Manajemen transaksi donor darah
+	Sedangkan analisis untuk kebutuhan non fungsional meliputi fitur karakteristik dan batas yang mendukung jalannya pembuatan Sistem informasi donor darah. Berikut ini kebutuhan-kebutuhan non fungsional yang mendukung pembuatan sistem : 
+	a.	Sistem operasi
+	b.	Editor
+	c.	Web browser & Framework
+
 
 3.3 Kebutuhan Non Fungsional
 •	Sistem harus dapat beroperasi 7 hari perminggu, 24 jam perhari tanpa gagal
