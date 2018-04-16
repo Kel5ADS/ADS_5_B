@@ -1,4 +1,4 @@
-SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK SISTEM INFORMASI DONOR DARAH
+﻿SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK SISTEM INFORMASI DONOR DARAH
 oleh :
 Dwica Kurniawan
 Indy Fungsihan
@@ -34,7 +34,7 @@ M. Muza
 	Sistem Informasi Kegiatan Donor Darah merupakan aplikasi e-commerce berbasis web untuk pendonor dara ingin menyumbangkan darahnya. Pengguna bisa melakukan pendaftaran sebagai pendonor dan penguna yang telah terdaftar bisa sign in ke dalam aplikasi. Pengguna pada saar pendaftaran akan mengisi nama lengkap, lamat asli, usia, golngan darah, penyakit yang diderita, e-mail, no hp, dan study. Pengguna yang telah masuk bisa melihat daftar darah yang dibutuhkan pada katalog. Pada katalog itu sendiri dapat memilih mendonorkan sesuai dengan golongan darahnya, dan dimana tempat donor darah yang dekat dengan posisinya pada saat itu. Pada aplikasi ini tersedia form jumlah darah yang ingin didonorkan. Penguna melakukan donor darah dengan cara mengeklik donor pada orang dan tempat dimana ingin mendonorkan darah tersebut. data anda akan dikirimkan, setelah itu pengguna akan dihubungi kapan ingin melakukan donor darah dan dimana . dan juga pendonor yang menghapiri rumah sakit atau pihak ruma sakit yang mendatangi pendonor. 
 	System ini dikelola oleh seorang admin yang bertugas memprbaharui katalog donor darah, data pendonor, dan data yang membutuhkan donor darah. Data-data ini dipertanggungjawabkan kepada rumah sakit dalam bentuk laporanpertanggungjawaban. Laporan ini akan dicetak apabila kepala rumah sakit meminta laporan tersebut melaliui admin. Admin akan melakukan permintaan generate laporan kepada aplikasi.
 
-2.2 Karakteristik Pengguna
+2.2 Karakteristik Pengguna 
 Table karakteristik pengguna
 KategoriPengguna	Tugas	Hak Akses ke aplikasi
 Pendonor 	Melakukan donor darah 	Sign in sebagai pendonor
@@ -103,7 +103,7 @@ User interface yang digunakan untuk pengoperasian Sistem Informasi Donor Darah a
 •	Tampilan pendaftaran
 •	Tampilan login sebagai admin
 •	Tampilan login sebagai user
-•	Tampilan login sebagai PMI/RS
+•	Tampilan login sebagai PMI/RS/PMR
 •	Tampilan informasi pendonor
 •	Tampilan informasi ketersediaan darah
 •	Tampilan informasi seputar kegiatan donor darah
@@ -119,9 +119,13 @@ Antarmuka perangkat keras yang digunakan untuk mengoperasikan sistem informasi i
 •	NIC FastEthernet atau Gigabit Ethernet
 
 3.1.3 Antarmuka Perangkat Lunak
-Antarmuka perangkat lunak yang digunakan oleh sistem informasi ini antara lain :
-•	
-•	
+Antarmuka (interface) adalah suatu layanan yang disediakan sistem operasi sebagai sarana interaksi anatara pengguna dengan sistem operasi. Antarmuka adalah komponen sistem operasi yang bersentuhan langsung dengan pengguna. Terdapat dua jenis antarmuka, yaitu Command Line Interface (CLI) dan Graphical User Interface (GUI):
+·  •    Command Line Interface (CLI)
+       CLI adalah tipe antarmuka dimana pengguna berinteraksi dengan sistem operasi melalui text-terminal. Pengguna menjalankan perintah dan program di sistem operasi tersebut dengan cara mengetikkan baris-baris tertentu. Meskipun konsepnya sama, tiap-tiap sistem operasi memiliki nama atau istilah yang berbeda untuk CLI-nya. UNIX memberi nama CLI-nya sebagai bash, ash, ksh, dan lain sebagainya. Microsoft Disk Operating System (MS-DOS) memberi nama command.com atau Command Prompt. Sedangkan pada Windows Vista, Microsoft menamakannya PowerShell. Pengguna Linux mengenal CLI pada Linux sebagai terminal, sedangkan pada Apple namanya adalah commandshell.
+·  •     Graphical User Interface (GUI)
+       GUI adalah tipe antarmuka yang digunakan oleh pengguna untuk berinteraksi dengan sistem operasi melalui gambar-gambar grafik, ikon, menu, dan menggunakan perangkat penunjuk ( pointing device) seperti mouse atau track ball. Elemen-elemen utama dari GUI bisa diringkas dalam konsep WIMP ( window, icon, menu, pointing device).
+ 
+
 
 3.2 Kebutuhan Fungsional
 	Kebutuhan fungsional sistem
