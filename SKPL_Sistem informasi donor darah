@@ -1,3 +1,10 @@
+SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK SISTEM INFORMASI DONOR DARAH
+oleh :
+Dwica Kurniawan
+Indy Fungsihan
+Irzan Tri Saputra
+M. Muza
+
 1.1 Pendahuluan
 1.1 Tujuan Pendahuluan Dokumen
 	Dokumen ini ditulis untuk tujuan menjabarkan spesifikasi dari perangkat lunak kami yaitu Sistem Informasi Donor Darah. Penjabaran spesfikasi kebutuhan lunak ini meliputi deskripsi umum perangkat lunak dan deskripsi kebutuhan perangkat lunak. Dalam membangun perangkat lunak tersebut, tentunya spesifikasi kebutuhan untuk perangkat lunak tersebut dibutuhkan, khususnya oleh para pengembang dan pembangun perangkat lunak tersbut.
@@ -22,9 +29,11 @@
 	Bagian Pendahuluan berisi tujuan penulisan mengenai tujuan dan alasan kenapa dokumen ini dibuat, lingkup permasalahan yang berisi ringkasan deskripsi dari perangkat lunak yang akan dibuat, definisi, istilah dan singkatan yang digunakan dalam dokumen spesifikasi kebutuhan ini, atau penomoran yang digunakan dalam penulisan dokumen spesifikasi kebutuhan ini. Bagian deskripsi umum kebutuhan perangkat lunak berisi deskripsi umum dari sistem perangkat lunak yang akan dibuat, karakteristik pengguna perangkat lunak ini dan batasan pembuatan perangkat lunak itu sendiri dan lingkungan operasi yang diperuntukan bagi perangkat lunak yang akan dibuat.  
 
 2. Deskripsi Umum Perangkat Lunak
+
 2.1 Deskripsi Umum system
 	Sistem Informasi Kegiatan Donor Darah merupakan aplikasi e-commerce berbasis web untuk pendonor dara ingin menyumbangkan darahnya. Pengguna bisa melakukan pendaftaran sebagai pendonor dan penguna yang telah terdaftar bisa sign in ke dalam aplikasi. Pengguna pada saar pendaftaran akan mengisi nama lengkap, lamat asli, usia, golngan darah, penyakit yang diderita, e-mail, no hp, dan study. Pengguna yang telah masuk bisa melihat daftar darah yang dibutuhkan pada katalog. Pada katalog itu sendiri dapat memilih mendonorkan sesuai dengan golongan darahnya, dan dimana tempat donor darah yang dekat dengan posisinya pada saat itu. Pada aplikasi ini tersedia form jumlah darah yang ingin didonorkan. Penguna melakukan donor darah dengan cara mengeklik donor pada orang dan tempat dimana ingin mendonorkan darah tersebut. data anda akan dikirimkan, setelah itu pengguna akan dihubungi kapan ingin melakukan donor darah dan dimana . dan juga pendonor yang menghapiri rumah sakit atau pihak ruma sakit yang mendatangi pendonor. 
 	System ini dikelola oleh seorang admin yang bertugas memprbaharui katalog donor darah, data pendonor, dan data yang membutuhkan donor darah. Data-data ini dipertanggungjawabkan kepada rumah sakit dalam bentuk laporanpertanggungjawaban. Laporan ini akan dicetak apabila kepala rumah sakit meminta laporan tersebut melaliui admin. Admin akan melakukan permintaan generate laporan kepada aplikasi.
+
 2.2 Karakteristik Pengguna
 Table karakteristik pengguna
 KategoriPengguna	Tugas	Hak Akses ke aplikasi
@@ -32,12 +41,14 @@ Pendonor 	Melakukan donor darah 	Sign in sebagai pendonor
 Rumah sakit 	Menerima permintaan donor darah	Sign in sebagai penerima donor darah
 Admin	Memperbaharui katalog, data darah yang dibutuhkan, dan permintaan donor darah	Sign in sebagai admin, control panel server, bass data darah
 Pasien	Meminta donor darah ke rumah sakit	Tidak ada
+
 2.3 Batasan 
-Dalam pembuatan perangkat lunak ini, ada beberapa batasan yang digunakan. Batasan-batasan tersebut antara lain :
-1.	Pendonor darah hanya dapat mendonorkan darahnya jika sudah sign in.
+Dalam pembuatan sistem informasi ini, ada beberapa batasan yang digunakan. Batasan-batasan tersebut antara lain :
+1.	Masyarakat biasa hanya dapat melihat event dan informasi seputar donor darah.
 2.	Aplikasi hanya menyedikan orang yang membutuhkan darah.
 3.	Aplikasi berfungsi pada platform windows dan OS
-2.4 Lingkungan Oprasi
+
+2.4 Lingkungan Operasi
 Aplikasi Client server ini akan berfungsi dengan spesifikasi :
 Server :
 Komputer dengan spesifikasi hardware minimal sebagai berikut :
@@ -58,9 +69,9 @@ Komputer yang minimal telah terinstall software sebagai berikut :
 •	Word Processor
 •	Apache HTTP Server
 •	Mail Server
-DBMS (Database Management System) minimal MySQL 5.0.20 ke atas 
-Koneksi internet dengan bandwidth minimal 1 Mbps 
-OS minimal Windows 2003 Server atau Ubuntu Server
+•	DBMS (Database Management System) minimal MySQL 5.0.20 ke atas 
+•	Koneksi internet dengan bandwidth minimal 1 Mbps 
+•	OS minimal Windows 2003 Server atau Ubuntu Server
 Client :
 Komputer dengan spesifikasi hardware minimal sebagai berikut :
 •	Processor Intel Pentium 4 2 Ghz
