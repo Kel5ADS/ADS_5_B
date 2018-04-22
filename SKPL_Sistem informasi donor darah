@@ -107,7 +107,9 @@ User interface yang digunakan untuk pengoperasian Sistem Informasi Donor Darah a
 •	Tampilan informasi pendonor
 •	Tampilan informasi ketersediaan darah
 •	Tampilan informasi seputar kegiatan donor darah
-
+•       Tampilan profil pembuat sistem informasi
+•       Tampilan yang berisi galeri dari kegiatan donor yang sudah dilaksanakan
+•       Form untuk kritik dan saran
 Alat-alat yang mendukung antarmuka pemakai adalah sebagai berikut:
 •	Keyboard
 •	Mouse
@@ -125,7 +127,9 @@ Antarmuka (interface) adalah suatu layanan yang disediakan sistem operasi sebaga
 ·  •     Graphical User Interface (GUI)
        GUI adalah tipe antarmuka yang digunakan oleh pengguna untuk berinteraksi dengan sistem operasi melalui gambar-gambar grafik, ikon, menu, dan menggunakan perangkat penunjuk ( pointing device) seperti mouse atau track ball. Elemen-elemen utama dari GUI bisa diringkas dalam konsep WIMP ( window, icon, menu, pointing device).
  
-
+3.1.4 Antarmuka Komunikasi
+Antarmuka komunikasi yang digunakan untuk mengoperasikan sistem informasi antara lain : 
+   • Modem
 
 3.2 Kebutuhan Fungsional
 	Kebutuhan fungsional sistem
@@ -135,9 +139,10 @@ Antarmuka (interface) adalah suatu layanan yang disediakan sistem operasi sebaga
 	2.	Manajemen cabang PMI/PMR yang terdaftar dalam sistem
 	3.	Manajemen permintaan stok darah
 	4.	Manajemen transaksi donor darah
+        5.      Validasi Data oleh admin
 	Sedangkan analisis untuk kebutuhan non fungsional meliputi fitur karakteristik dan batas yang mendukung jalannya pembuatan Sistem informasi donor darah. Berikut ini kebutuhan-kebutuhan non fungsional yang mendukung pembuatan sistem : 
 	a.	Sistem operasi
-	b.	Editor
+	b.      Teks editor
 	c.	Web browser & Framework
 
 
@@ -153,5 +158,6 @@ Antarmuka (interface) adalah suatu layanan yang disediakan sistem operasi sebaga
 
 3.4 Batasan Perancangan
 Batasan perancangan yang digunakan dalam pengembangan Sistem Informasi Donor Darah antara lain :
-•	Tampilan web digunakan menggunakan aplikasi Balsemiq Mockup 3
-•	Bahasa yang digunakan menggunakan bahasa php
+•	Tampilan web digunakan menggunakan template yang sudah ada
+•	Bahasa yang digunakan menggunakan bahasa html dan php
+•       Teks edtor yang digunakan adalah notepad++
