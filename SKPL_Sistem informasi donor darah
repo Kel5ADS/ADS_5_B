@@ -14,15 +14,19 @@ M. Muza
 
 1.3 Definisi, IStilah dan Singkatan
 	Berikut adalah definisi, istilah serta singkatan yang akan digunakan dalam penjabaran dokumen perangkat lunat ini:
+	SKPL : Spesifikasi Kebutuhan Perangkat Lunak, atau yang biasa disebut dengan Software Requirements Specification yang merupakan spesifikasi dari perangkat lunak yang akan dikembangkan.
 	DFD : Data FLow Diagram. Diagram yang menggambarkan aliran data pada perangkat lunak.
 	ERD : Entity Realation Diagram. Diagram yang menggambarkan entitas suatu objek beserta relasinya.
-	Interfaces : Tampilan antarmuka antara perangkat lunak dengan pengguna (user) 
+	Interfaces : Tampilan antarmuka antara perangkat lunak dengan pengguna (user).
+	HTML : Hyper Text Markup Language yang merupakan code untuk membentuk antar muka pada sistem informasi yang dikembangkan.
+	CSS : Cascading Style Sheet yang merupakan code untuk membuat desain atau tampilan antar muka pada sistem informasi menjadi seragam atau menarik
+	PHP : HyperTexx Propocessor yang merupakan code yang disisipkan didalam HTML yang berfungsi sebagai backend agar sistem informasi dapat berfungsi sebagaimana kebutuhannya.
 
 1.4 Aturan Penomoran
 	
 
 1.5 Referensi
-
+	Schmidt kartono. Kebutuhan Spesifikasi Perangkat Lunak. Sistem Informasi Tugas Akhir.  2015
 
 1.6 Deskripsi umum Dokumen (Ikhtisar)
 	Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan meliputi: pendahuluan, deskripsi umum perangkat lunak, dan deskripsi kebutuhan perangkat lunak.
@@ -44,9 +48,10 @@ Pasien	Meminta donor darah ke rumah sakit	Tidak ada
 
 2.3 Batasan 
 Dalam pembuatan sistem informasi ini, ada beberapa batasan yang digunakan. Batasan-batasan tersebut antara lain :
-1.	Masyarakat biasa hanya dapat melihat event dan informasi seputar donor darah.
+1.	Pengguna hanya bisa melihat informasi yang tersedia dan mengirimkan permintaan atau request darah melalui web.
 2.	Aplikasi hanya menyedikan orang yang membutuhkan darah.
-3.	Aplikasi berfungsi pada platform windows dan OS
+3.	Aplikasi berfungsi pada platform windows dan OS.
+4. 	Pengguna harus tersambung dengan internet untuk mengakses sistem informasi ini.
 
 2.4 Lingkungan Operasi
 Aplikasi Client server ini akan berfungsi dengan spesifikasi :
@@ -117,8 +122,9 @@ Alat-alat yang mendukung antarmuka pemakai adalah sebagai berikut:
 
 3.1.2 Antarmuka Perangkat Keras
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan sistem informasi ini antara lain :
-•	Modem
-•	NIC FastEthernet atau Gigabit Ethernet
+•	Komputer
+•	Keyboard
+•	Mouse
 
 3.1.3 Antarmuka Perangkat Lunak
 Antarmuka (interface) adalah suatu layanan yang disediakan sistem operasi sebagai sarana interaksi anatara pengguna dengan sistem operasi. Antarmuka adalah komponen sistem operasi yang bersentuhan langsung dengan pengguna. Terdapat dua jenis antarmuka, yaitu Command Line Interface (CLI) dan Graphical User Interface (GUI):
@@ -129,7 +135,7 @@ Antarmuka (interface) adalah suatu layanan yang disediakan sistem operasi sebaga
  
 3.1.4 Antarmuka Komunikasi
 Antarmuka komunikasi yang digunakan untuk mengoperasikan sistem informasi antara lain : 
-   • Modem
+  
 
 3.2 Kebutuhan Fungsional
 	Kebutuhan fungsional sistem
