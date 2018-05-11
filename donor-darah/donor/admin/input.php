@@ -23,17 +23,15 @@
 			<section id="one" class="wrapper special">
 				<form action="send.php" method="post">
 					<input type="text" name="pendonor" placeholder="Nama" />
-					<input type="text" name="gol_darah" placeholder="Goldar"></textarea>
+					<select name="gol_darah" placeholder="Goldar">
+						<option value="A">A</option>
+						<option value="B">B</option>
+						<option value="AB">AB</option>
+						<option value="O">O</option>
+					</select>
 					<input type="text" name="pmi" placeholder="Asal PMI" />
 					<input type="text" name="alamat" placeholder="alamat" />
-					<input type="text" name="kontak" placeholder="Contact Person" />
-			<!--		
-					<input type="text" name="Nama Pendonor" value="<?php echo htmlspecialchars($pendonor1);?>" readonly />
-					<input type="text" name="Gol. Darah" value="<?php echo htmlspecialchars($gol_darah1);?>" readonly />
-					<input type="text" name="Asal PMI" value="<?php echo htmlspecialchars($pmi1);?>" readonly />
-					<input type="text" name="alamat" value="<?php echo htmlspecialchars($alamat1);?>" readonly></textarea>
-					<input type="text" name="CP" value="<?php echo htmlspecialchars($kontak1);?>" readonly />
-			-->		
+					<input type="text" name="kontak" placeholder="Contact Person" />		
 					<button type="submit" name="send" value="send">Send</button>
 				</form>
 			</section>
