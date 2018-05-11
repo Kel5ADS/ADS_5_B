@@ -23,7 +23,12 @@
 			<section id="one" class="wrapper special">
 				<form action="send.php" method="post">
 					<input type="text" name="pendonor" placeholder="Nama" />
-					<input type="text" name="gol_darah" placeholder="Goldar"></textarea>
+					<select name="gol_darah" placeholder="Goldar">
+						<option value="A">A</option>
+						<option value="B">B</option>
+						<option value="AB">AB</option>
+						<option value="O">O</option>
+					</select>
 					<input type="text" name="pmi" placeholder="Asal PMI" />
 					<input type="text" name="alamat" placeholder="alamat" />
 					<input type="text" name="kontak" placeholder="Contact Person" />
